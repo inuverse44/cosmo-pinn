@@ -1,0 +1,7 @@
+# Configuration file for COSMO PINN
+training:
+  epochs: 1000
+  learning_rate: 0.001
+model:
+  type: PINN
+  layers: [64, 64, 64]
